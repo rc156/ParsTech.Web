@@ -1,0 +1,31 @@
+﻿@model IEnumerable<ParsTech.Web.Models.ProjectNames>
+
+@{
+    ViewData["Title"] = "EmpProjList";
+}
+
+<h4>Employee Project List</h4>
+<div class="form-group col-md-6" align="center">
+    <a asp-controller="Employee" asp-action="Index" class="btn btn-secondary btn-block"><i class="fa fa-table"></i> Back to List</a>
+</div>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.ProjectName)
+            </th>
+            @*<th></th>*@
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ProjectName)
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+

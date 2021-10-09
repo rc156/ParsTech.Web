@@ -1,0 +1,35 @@
+﻿@model ParsTech.Web.Models.ViewProjectVM
+
+@{
+    ViewData["Title"] = "View";
+}
+
+<h4>Assign Project To Employee</h4>
+<hr />
+<div class="row">
+    <div class="col-md-6">
+        <form asp-controller="EmpProject" asp-action="AssignProject">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="IdEmployee" />
+            <div class="form-group">
+                <label asp-for="ProjectName" class="control-label"></label>
+                @*<select asp-for="IdProject" asp-items="ProjectName" class="form-control" ></select>*@
+                <select asp-for="IdProject" asp-items="Model.ProjectName" class="form-control" ></select>
+                <span asp-validation-for="IdProject" class="text-danger"></span>
+            </div>
+
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <input type="submit" value="Submit" class="btn btn-primary btn-block" />
+                </div>
+                <div class="form-group col-md-6">
+                    <a asp-controller="Employee" asp-action="Index" class="btn btn-secondary btn-block"><i class="fa fa-table"></i> Back to List</a>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
