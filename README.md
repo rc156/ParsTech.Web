@@ -16,9 +16,13 @@ Table3: EmployeeProject: IdEmployeeProject, IdEmployee, IdProject (this table us
 
 ### Time Taken:-
 R&D and Project Setup:- 30 Minutes 
+
 Database:- 30 Minutes 
+
 Frontend:- 1 Hour 
+
 Backend:- 3 Hours 
+
 Testing:- 30 Minutes
 
 ### SnapShots
