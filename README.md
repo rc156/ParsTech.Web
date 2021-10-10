@@ -26,24 +26,25 @@ Backend:- 3 Hours
 Testing:- 30 Minutes
 
 ### SnapShots
+
 <p>
 
-<img src="https://github.com/rc156/ParsTech.Web/blob/master/Screenshots/AssignProject.png" alt="Login" width="50%" />
+<img src="https://github.com/rc156/ParsTech.Web/blob/master/Screenshots/AssignProject.png" alt="Login" width="80%" />
   
 
-<img src="https://github.com/rc156/ParsTech.Web/blob/master/Screenshots/EmployeeForm.png" alt="Register" width="50%"  />
+<img src="https://github.com/rc156/ParsTech.Web/blob/master/Screenshots/EmployeeForm.png" alt="Register" width="80%"  />
   
 
-<img src="https://github.com/rc156/ParsTech.Web/blob/master/Screenshots/EmployeeList.png" alt="Splash" width="50%"  />
+<img src="https://github.com/rc156/ParsTech.Web/blob/master/Screenshots/EmployeeList.png" alt="Splash" width="80%"  />
   
 
-<img src="https://github.com/rc156/ParsTech.Web/blob/master/Screenshots/ProjectForm.png" alt="Splash" width="50%"  />
+<img src="https://github.com/rc156/ParsTech.Web/blob/master/Screenshots/ProjectForm.png" alt="Splash" width="80%"  />
   
 
-<img src="https://github.com/rc156/ParsTech.Web/blob/master/Screenshots/ProjectList.png" alt="Splash" width="50%"  />
+<img src="https://github.com/rc156/ParsTech.Web/blob/master/Screenshots/ProjectList.png" alt="Splash" width="80%"  />
   
 
-<img src="https://github.com/rc156/ParsTech.Web/blob/master/Screenshots/ViewProject.png" alt="Splash" width="50%"  />
+<img src="https://github.com/rc156/ParsTech.Web/blob/master/Screenshots/ViewProject.png" alt="Splash" width="80%"  />
 
 </p>
 ### Note:- 
